@@ -1,0 +1,1012 @@
+2022-03-09 13:09:20.924 [OkHttp http://13.250.247.203:7000/...] ERRORa.ApiBlockchainUtils - authen faild: 500 connect timed out
+2022-03-09 13:27:09.215 [HikariPool-1 housekeeper] WARN c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m24s855ms).
+2022-03-09 13:45:07.031 [Quartz_Scheduler-1] INFO g.m.b.l.BossManager - boss battle start!------111
+2022-03-09 13:45:07.033 [Quartz_Scheduler-1] INFO g.m.g.l.GmManager - send marquee,marquee_template_id=22
+2022-03-09 13:45:07.035 [Quartz_Scheduler-1] INFO g.m.b.l.BossManager - boss battle start!------222
+2022-03-09 13:56:46.240 [HikariPool-1 housekeeper] WARN c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m37s25ms).
+2022-03-09 13:56:49.352 [Quartz_Scheduler-2] INFO g.m.b.l.BossEndJob - boss end job start!
+2022-03-09 13:56:49.352 [Quartz_Scheduler-2] WARN g.m.b.l.BossManager - BOSS battle！levelIndex=0,isByHurt=false
+2022-03-09 13:56:49.355 [Quartz_Scheduler-2] WARN g.m.b.l.BossManager - BOSS battle！levelIndex=1,isByHurt=false
+2022-03-09 13:57:07.313 [OkHttp http://13.250.247.203:7000/...] ERRORa.ApiBlockchainUtils - authen faild: 500 connect timed out
+2022-03-09 13:57:30.542 [shutdown-hook] WARN g.GameServer - shutting down game server!
+2022-03-09 13:57:30.545 [shutdown-hook] WARN g.GameServer - close lan server!
+2022-03-09 13:57:30.546 [shutdown-hook] WARN g.GameServer - close http server!
+2022-03-09 13:57:30.546 [shutdown-hook] WARN g.GameServer - global timmer shutdown!
+2022-03-09 13:57:30.546 [shutdown-hook] WARN g.GameServer - arena save to db!
+2022-03-09 13:57:30.572 [shutdown-hook] INFO g.m.a.d.ActivityQZYBCache - Preserve Qi Zhenbao Event Participation Information
+2022-03-09 13:57:30.575 [shutdown-hook] INFO g.m.a.d.ActivityChongZhiBangCache - Save recharge list participation information
+2022-03-09 13:57:30.578 [shutdown-hook] INFO g.m.a.d.ActivityXiaoFeiBangBangCache - Save the consumer list
+2022-03-09 13:57:30.643 [shutdown-hook] INFO g.m.r.d.RankLikeCache - rank like info saveToDb!
+2022-03-09 13:57:30.737 [shutdown-hook] WARN g.GameServer - save all player data!
+2022-03-09 13:57:30.739 [shutdown-hook] WARN g.GameServer - begin threadpool shutdown!
+2022-03-09 13:57:30.739 [shutdown-hook] WARN g.GameServer - logic threadpool terminate successfully!
+2022-03-09 13:57:30.739 [shutdown-hook] WARN g.GameServer - close player offline cache!
+2022-03-09 13:57:30.773 [shutdown-hook] WARN g.GameServer - close quartz scheduler!
+2022-03-09 13:57:30.773 [shutdown-hook] INFO o.q.c.QuartzScheduler - Scheduler Quartz_Scheduler_$_Quartz_Scheduler_Instance shutting down.
+2022-03-09 13:57:30.773 [shutdown-hook] INFO o.q.c.QuartzScheduler - Scheduler Quartz_Scheduler_$_Quartz_Scheduler_Instance paused.
+2022-03-09 13:57:31.211 [shutdown-hook] INFO o.q.c.QuartzScheduler - Scheduler Quartz_Scheduler_$_Quartz_Scheduler_Instance shutdown complete.
+2022-03-09 13:57:31.211 [shutdown-hook] INFO c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-03-09 13:57:31.217 [shutdown-hook] INFO c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-03-09 13:57:31.217 [shutdown-hook] WARN g.GameServer - successfully close game server!
+2022-03-09 13:57:33.608 [main] WARN g.GameServer - game server start!
+2022-03-09 13:57:33.609 [main] WARN g.GameServer - load executer
+2022-03-09 13:57:33.612 [main] INFO g.d.DataSourceManager - init Hikari jdbc DataSource
+2022-03-09 13:57:33.615 [main] INFO c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2022-03-09 13:57:33.934 [main] INFO c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2022-03-09 13:57:33.934 [main] WARN g.GameServer - init executer
+2022-03-09 13:57:33.935 [main] WARN g.GameServer - regist message processors!
+2022-03-09 13:57:34.179 [main] INFO g.GameServer - IO processor,size=225
+2022-03-09 13:57:34.304 [main] INFO l.n.m.MsgDispatcher - dump IO message processors:
+0=game.module.friend.processor.FriendAddBlackProcessor
+101=game.module.gm.processor.GmCmdProcessor
+1041=game.module.pub.processor.PubViewProcessor
+1043=game.module.pub.processor.PubBuyProcessor
+1045=game.module.store.processor.StoreNormallListProcessor
+1047=game.module.store.processor.StoreArmyListProcessor
+1049=game.module.store.processor.StoreArmyShopBuyProcessor
+1051=game.module.store.processor.StoreArmyRefreshProcessor
+1053=game.module.store.processor.StoreVipPackBuyProcessor
+1055=game.module.store.processor.StoreNormalBuyProcessor
+2001=game.module.card.processor.CardListProcessor
+2005=game.module.card.processor.CardTakeOnItemProcessor
+2007=game.module.card.processor.CardTakeOffItemProcessor
+2009=game.module.card.processor.CardAddLevelProcessor
+2011=game.module.card.processor.CardAddStarProcessor
+2013=game.module.card.processor.CardTrainProcessor
+2015=game.module.card.processor.CardAutoTrainProcessor
+2017=game.module.card.processor.CardUpgradeUnitProcessor
+2019=game.module.card.processor.CardComposeProcessor
+2021=game.module.card.processor.CardEquipUnitProcessor
+2025=game.module.card.processor.RuneUnlockProcessor
+2027=game.module.card.processor.RunePutupProcessor
+2029=game.module.card.processor.RuneHammerBuyProcessor
+2031=game.module.forge.processor.RuneCombineProcessor
+2033=game.module.card.processor.RuneLevelupProcessor
+2201=game.module.mission.processor.MissionListProcessor
+2203=game.module.mission.processor.MissionGetAwardProcessor
+2207=game.module.mission.processor.MissionGetAwardAllProcessor
+3001=game.module.stage.processor.StageListProcessor
+3003=game.module.stage.processor.StageEndProcessor
+3005=game.module.stage.processor.BattleFormationSaveProcessor
+3007=game.module.stage.processor.StageBoxAwardGetProcessor
+3009=game.module.stage.processor.EliteStageEndProcessor
+3011=game.module.stage.processor.EliteStageBoxAwardGetProcessor
+3013=game.module.stage.processor.ElitePointAwardGetProcessor
+3015=game.module.stage.processor.StageSweepProcessor
+3017=game.module.stage.processor.StageSaveCrawlProcessor
+3019=game.module.stage.processor.StageStartProcessor
+3021=game.module.stage.processor.EliteStageStartProcessor
+3101=game.module.mine.processor.MineListProcessor
+3103=game.module.mine.processor.MineEnemyDetailProcessor
+3105=game.module.mine.processor.MineBattleCalculateProcessor
+3109=game.module.mine.processor.MineGetAwardProcessor
+3111=game.module.mine.processor.MineHistoryProcessor
+3113=game.module.mine.processor.MineDefFormationSaveProcessor
+3201=game.module.teamskill.processor.TeamskillListProcessor
+3203=game.module.teamskill.processor.TeamskillUpgradeProcessor
+3301=game.module.secret.processor.SecretViewProcessor
+3303=game.module.secret.processor.SecretWarStartProcessor
+3305=game.module.secret.processor.SecretWarEndProcessor
+3307=game.module.secret.processor.SecretGetBoxAwardProcessor
+3309=game.module.secret.processor.SecretSoldierReviveProcessor
+3311=game.module.secret.processor.SecretResetProcessor
+3351=game.module.boss.processor.BossListProcessor
+3353=game.module.boss.processor.BossHurtProcessor
+3355=game.module.boss.processor.BossGetAwardProcessor
+3357=game.module.boss.processor.BossBattleStartPocessor
+3361=game.module.boss.processor.BossGuwuProcessor
+3401=game.module.mission.daily.processor.DailyMissionListProcessor
+3403=game.module.mission.daily.processor.DailyMissionGetAwardProcessor
+3407=game.module.mission.daily.processor.DailyMissionGetAwardAllProcessor
+3451=game.module.guozhan.processor.GuozhanViewProcessor
+3453=game.module.guozhan.processor.GuozhanBattleStartProcessor
+3455=game.module.guozhan.processor.GuozhanBattleEndProcessor
+3457=game.module.guozhan.processor.GuozhanMoveProcessor
+3459=game.module.guozhan.processor.GuozhanChangeNationProcessor
+3461=game.module.guozhan.processor.GuozhanOfficeViewProcessor
+3463=game.module.guozhan.processor.GuozhanOfficeDetailProcessor
+3465=game.module.guozhan.processor.GuozhanOfficeStartProcessor
+3467=game.module.guozhan.processor.GuozhanOfficeCalculateProcessor
+3471=game.module.guozhan.processor.GuozhanFightViewProcessor
+3473=game.module.guozhan.processor.GuozhanCityDetailProcessor
+3475=game.module.guozhan.processor.GuozhanCityMoveProcessor
+3477=game.module.guozhan.processor.GuozhanCityCalculateProcessor
+3481=game.module.guozhan.processor.GuozhanHistoryRecordProcessor
+3601=game.module.sign.processor.ListSignProcessor
+3603=game.module.sign.processor.GetSignAwardProcessor
+3611=game.module.onlineAward.processor.ListOnlineAwardProcessor
+3613=game.module.onlineAward.processor.OnlineTimeProcessor
+3615=game.module.onlineAward.processor.GetOnlineAwardProcessor
+3621=game.module.cdkey.processor.CdkeyConvertProcessor
+3801=game.module.arena.processor.StoreArenaListProcessor
+3803=game.module.arena.processor.StoreArenaBuyProcessor
+3805=game.module.arena.processor.ArenaViewProcessor
+3807=game.module.arena.processor.ArenaEnemyDetailProcessor
+3809=game.module.arena.processor.ArenaEnemyRefreshProcessor
+3811=game.module.arena.processor.ArenaBattleStartProcessor
+3813=game.module.arena.processor.ArenaBattleCalculateProcessor
+3815=game.module.arena.processor.ArenaLuckyRankInfoProcessor
+3817=game.module.arena.processor.ArenaRecrodViewProcessor
+3819=game.module.arena.processor.ArenaFormationProcessor
+3821=game.module.arena.processor.ArenaPlayerDetailProcessor
+3823=game.module.arena.processor.ArenaTopRankViewProcessor
+3825=game.module.arena.pk_processor.PkEnemyFormationProcessor
+3827=game.module.arena.pk_processor.PkBattleCalculateProcessor
+3829=game.module.arena.processor.ArenaEnemyInBattleProcessor
+4201=game.module.buy.processor.PaymentGetInfoProcessor
+4203=game.module.buy.processor.BuyCoinProcessor
+4205=game.module.buy.processor.BuyStrengthProcessor
+4401=game.module.store.processor.BlackMarketListProcessor
+4403=game.module.store.processor.BlackMarketBuyProcessor
+4405=game.module.store.processor.BlackMarketRefreshProcessor
+4601=game.module.forge.processor.ForgeProcessor
+4603=game.module.forge.processor.EquipComposeProcessor
+4605=game.module.forge.processor.RuneSuccessRateQueryProcessor
+4607=game.module.forge.processor.ConstrueCardProcessor
+4801=game.module.tresure_rob.processor.TreasureRobListProcessor
+4803=game.module.tresure_rob.processor.TreasureRobEnemyDetailProcessor
+4805=game.module.tresure_rob.processor.TreasureRobCalculateProcessor
+4807=game.module.tresure_rob.processor.TreasureAvoidRobProcessor
+4809=game.module.tresure_rob.processor.TreasureAvoidRobTimeProcessor
+4811=game.module.tresure_rob.processor.TreasureRobBattleStartProcessor
+4813=game.module.tresure_rob.processor.TreasureAutoRobProcessor
+4815=game.module.tresure_rob.processor.TreasureRobReportProcessor
+4817=game.module.tresure_rob.processor.TreasureRobGrabProcessor
+5001=game.module.overcome.processor.OvercomeInfoAllProcessor
+5005=game.module.overcome.processor.OvercomePassStageProcessor
+5007=game.module.overcome.processor.OvercomeClaimRewardProcessor
+5009=game.module.overcome.processor.OvercomeResetProcessor
+5011=game.module.overcome.processor.StoreOvercomeListProcessor
+5013=game.module.overcome.processor.StoreOvercomeRefreshProcessor
+5015=game.module.overcome.processor.StoreOvercomeBuyProcessor
+5201=game.module.activity_battle.processor.ActivitiesViewProcessor
+5203=game.module.activity_battle.processor.ActivitiesBattlePassProcessor
+5205=game.module.activity_battle.processor.ActivitiesClaimAwardProcessor
+5207=game.module.activity_battle.processor.ActivitiesBattleBuyTicketProcessor
+5209=game.module.activity_battle.processor.ActivitiesBattleFormationProcessor
+5211=game.module.activity_battle.processor.ActivitiesBattleSweepProcessor
+5401=game.module.activity.processor.ActivityListProcessor
+5403=game.module.activity.processor.ActivityGetAwardProcessor
+5407=game.module.activity.processor.QiZhenYiBaoViewProcessor
+5409=game.module.activity.processor.QiZhenYiBaoJoinProcessor
+5415=game.module.activity.processor.LunarNewYearProcessor
+10101=game.module.user.processor.ListCharacterProcessor
+10103=game.module.user.processor.CreateCharacterProcessor
+10105=game.module.user.processor.EnterGameProcessor
+10119=game.module.newguide.processor.GuideStepSetProcessor
+10123=game.module.pay.processor.GetFirstPayAwardProcessor
+10125=game.module.pay.processor.GetVipPackAwardProcessor
+10127=game.module.user.processor.DownlineReconnectProcessor
+10129=game.module.user.processor.ListRedPointsProcessor
+10131=game.module.pay.processor.QunheiPayPreProcessor
+10137=game.module.pay.processor.GetYuekaAwardProcessor
+10139=game.module.user.processor.GetWxShareAwardProcessor
+10143=game.module.rank.processor.RankViewProcessor
+10145=game.module.rank.processor.RankPlayerDetailProcessor
+10147=game.module.pay.processor.ZMPayCheckProcessor
+10149=game.module.user.processor.OfflineAwardDoubleProcessor
+10151=game.module.pay.processor.Three33PayPreProcessor
+10153=game.module.pay.processor.ChongchongPayPreProcessor
+10155=game.module.pay.processor.F4399PayPreProcessor
+10157=game.module.rank.processor.RankLikeProcessor
+10161=game.module.pay.processor.WanbaGetBalanceProcessor
+10163=game.module.pay.processor.WanbaPayProcessor
+10165=game.module.user.processor.AddDesktopShortcutAwardProcessor
+10167=game.module.user.processor.ChangeNameProcessor
+10169=game.module.user.processor.ChangeIconProcessor
+10171=game.module.user.processor.ListHeadFrameProcessor
+10173=game.module.user.processor.ChangeHeadFrameProcessor
+10175=game.module.pay.processor.IosVerifyProcessor
+10179=game.module.wanba.processor.QedjListProcessor
+10181=game.module.wanba.processor.QedjAwardProcessor
+10183=game.module.pay.processor.QuickH5PayPreProcessor
+10185=game.module.user.processor.SendEmailActiveProcessor
+10187=game.module.user.processor.ActiveEmailProcessor
+10301=game.module.item.processor.ListBagProcessor
+10303=game.module.item.processor.SellItemProcessor
+10305=game.module.item.processor.UseItemProcessor
+10309=game.module.item.processor.BagExpandProcessor
+10311=game.module.item.processor.EquipEnhanceProcessor
+10313=game.module.item.processor.EquipEnhanceAutoProcessor
+10315=game.module.item.processor.EquipEnhanceAllProcessor
+10317=game.module.item.processor.EquipRefreshProcessor
+10319=game.module.item.processor.EquipRefreshSaveProcessor
+10321=game.module.item.processor.TreasureEnhanceProcessor
+10323=game.module.item.processor.TreasureRefreshProcessor
+10325=game.module.item.processor.TreasureFragComposeProcessor
+10327=game.module.item.processor.EquipFragComposeProcessor
+10401=game.module.chat.processor.ChatProcessor
+10405=game.module.chat.processor.ChatViewProcessor
+10407=game.module.chat.processor.ChatVisitProcessor
+10811=game.module.pay.processor.DalanGetOrderIdProcessor
+10817=game.module.pay.processor.Xiao7GetOrderIdProcessor
+10819=game.module.pay.processor.HuiwenGetOrderIdProcessor
+10821=game.module.pay.processor.IabVerifyProcessor
+10900=game.module.user.processor.WalletAddProcessor
+10902=game.module.user.processor.WalletGetProcessor
+10904=game.module.pay.processor.LogTxIdProcessor
+10906=game.module.pay.processor.LogRefProcessor
+10911=game.module.user.processor.ChangePasswordProcessor
+12001=game.module.friend.processor.FriendListProcessor
+12003=game.module.friend.processor.FriendAddProcessor
+12005=game.module.friend.processor.FriendApplyListProcessor
+12011=game.module.friend.processor.FriendRemoveProcessor
+12013=game.module.friend.processor.FriendGiftStrengthProcessor
+12015=game.module.friend.processor.FriendGetStrengthProcessor
+12017=game.module.friend.processor.FriendApplyDealProcessor
+12019=game.module.friend.processor.FriendSuggestListProcessor
+12021=game.module.friend.processor.FriendFindProcessor
+13001=game.module.guild.processor.GuildListProcessor
+37037=game.module.cross_boss.processor.CrossBossViewProcessor
+40001=game.module.mail.processor.ListMailProcessor
+40003=game.module.mail.processor.GetMailAttachsProcessor
+40005=game.module.mail.processor.ReadNewMailMsgProcessor
+40009=game.module.mail.processor.DelMailMsgProcessor
+40013=game.module.mail.processor.GetMailAttachAllProcessor
+50031=game.module.invite.processor.InviteListProcessor
+50033=game.module.invite.processor.InviteConvertProcessor
+50035=game.module.invite.processor.InviteGetAwardProcessor
+80001=game.module.anti.processor.CheckDameProcessor
+101001=game.module.battle_arena.processor.BattleArenaViewProcessor
+101003=game.module.battle_arena.processor.BattleArenaFormationProcessor
+101005=game.module.battle_arena.processor.BattleArenaWarStartProcessor
+101007=game.module.battle_arena.processor.BattleArenaWarEndProcessor
+101009=game.module.battle_arena.processor.BattleArenaResetProcessor
+101011=game.module.battle_arena.processor.BattleArenaSoldierReviveProcessor
+101013=game.module.battle_arena.processor.BattleArenaGetBoxAwardProcessor
+101015=game.module.battle_arena.processor.BattleArenaGetListHireCardProcessor
+101017=game.module.battle_arena.processor.BattleArenaListEnemyProcessor
+101019=game.module.battle_arena.processor.BattleArenaResetListHireHeroProcessor
+101021=game.module.battle_arena.processor.BattleArenaResetListEnemyProcess
+102001=game.module.daily_quest.processor.GetListDailyQuestProcessor
+102003=game.module.daily_quest.processor.DailyQuestGetRewardProcessor
+102005=game.module.daily_quest.processor.ResetDailyQuestProcessor
+9999999=game.module.pay.processor.TokenPayProcessor
+
+2022-03-09 13:57:34.304 [main] WARN g.GameServer - load templates
+2022-03-09 13:57:34.465 [main] WARN g.GameServer - load template=class game.module.activity.dao.TestActivitiesNewTemplateCache
+2022-03-09 13:57:34.674 [main] INFO g.m.a.d.TestActivitiesNewTemplateCache - size=7
+2022-03-09 13:57:34.675 [main] WARN g.GameServer - load template=class game.module.activity.logic.ActivityAnswerTemplateCache
+2022-03-09 13:57:34.709 [main] INFO g.m.a.l.ActivityAnswerTemplateCache - AnswerTemplate,size=57
+2022-03-09 13:57:34.711 [main] INFO g.m.a.l.ActivityAnswerTemplateCache - AnswerRewardTemplate, size=2
+2022-03-09 13:57:34.712 [main] WARN g.GameServer - load template=class game.module.activity.logic.ActivityTemplateCache
+2022-03-09 13:57:34.712 [main] INFO g.m.a.l.ActivityTemplateCache - activityTemplate,size=12
+2022-03-09 13:57:34.713 [main] WARN g.GameServer - load template=class game.module.activity_battle.dao.ActivityBattleTemplateCache
+2022-03-09 13:57:34.719 [main] INFO g.m.a.d.ActivityBattleTemplateCache - size=3
+2022-03-09 13:57:34.720 [main] WARN g.GameServer - load template=class game.module.arena.dao.ArenaRobotsTemplateCache
+2022-03-09 13:57:34.725 [main] INFO g.m.a.d.ArenaRobotsTemplateCache - size=3
+2022-03-09 13:57:34.726 [main] WARN g.GameServer - load template=class game.module.arena.dao.ArenaTemplateCache
+2022-03-09 13:57:34.728 [main] INFO g.m.a.d.ArenaTemplateCache - size=7
+2022-03-09 13:57:34.728 [main] WARN g.GameServer - load template=class game.module.arena.logic.ArenaImporveRewardTemplateCache
+2022-03-09 13:57:34.749 [main] INFO g.m.a.l.ArenaImporveRewardTemplateCache - ArenaImproveRewardTemplate,size=15001
+2022-03-09 13:57:34.750 [main] WARN g.GameServer - load template=class game.module.award.dao.AwardTemplateCache
+2022-03-09 13:57:34.762 [main] INFO g.m.a.d.AwardTemplateCache - size=95
+2022-03-09 13:57:34.763 [main] WARN g.GameServer - load template=class game.module.battle_arena.dao.BattleArenaTemplateCache
+2022-03-09 13:57:34.764 [main] INFO g.m.b.d.BattleArenaTemplateCache - size=12
+2022-03-09 13:57:34.765 [main] WARN g.GameServer - load template=class game.module.boss.dao.BossTemplateCache
+2022-03-09 13:57:34.770 [main] INFO g.m.b.d.BossTemplateCache - size=2
+2022-03-09 13:57:34.771 [main] WARN g.GameServer - load template=class game.module.buy.dao.PaymentTemplateCache
+2022-03-09 13:57:34.772 [main] INFO g.m.b.d.PaymentTemplateCache - size=2
+2022-03-09 13:57:34.773 [main] WARN g.GameServer - load template=class game.module.card.dao.AdditionsTemplateCache
+2022-03-09 13:57:34.775 [main] INFO g.m.c.d.AdditionsTemplateCache - size=612
+2022-03-09 13:57:34.776 [main] WARN g.GameServer - load template=class game.module.card.dao.CardLevelsTemplateCache
+2022-03-09 13:57:34.778 [main] INFO g.m.c.d.CardLevelsTemplateCache - size=10
+2022-03-09 13:57:34.778 [main] WARN g.GameServer - load template=class game.module.card.dao.CardUpgradeTemplateCache
+2022-03-09 13:57:34.780 [main] INFO g.m.c.d.CardUpgradeTemplateCache - size=2
+2022-03-09 13:57:34.780 [main] WARN g.GameServer - load template=class game.module.card.dao.CardsTemplateCache
+2022-03-09 13:57:34.786 [main] INFO g.m.c.d.CardsTemplateCache - size=356
+2022-03-09 13:57:34.787 [main] WARN g.GameServer - load template=class game.module.card.dao.FormationTemplateCache
+2022-03-09 13:57:34.788 [main] INFO g.m.c.d.FormationTemplateCache - size=8
+2022-03-09 13:57:34.789 [main] WARN g.GameServer - load template=class game.module.card.dao.RuneLevelTemplateCache
+2022-03-09 13:57:34.794 [main] INFO g.m.c.d.RuneLevelTemplateCache - size=4
+2022-03-09 13:57:34.795 [main] WARN g.GameServer - load template=class game.module.card.dao.RunesTemplateCache
+2022-03-09 13:57:34.797 [main] INFO g.m.c.d.RunesTemplateCache - size=64
+2022-03-09 13:57:34.797 [main] WARN g.GameServer - load template=class game.module.card.dao.TalentsTemplateCache
+2022-03-09 13:57:34.798 [main] INFO g.m.c.d.TalentsTemplateCache - size=153
+2022-03-09 13:57:34.799 [main] WARN g.GameServer - load template=class game.module.card.dao.TiersTemplateCache
+2022-03-09 13:57:34.800 [main] INFO g.m.c.d.TiersTemplateCache - size=11
+2022-03-09 13:57:34.800 [main] WARN g.GameServer - load template=class game.module.card.dao.UnitsTemplateCache
+2022-03-09 13:57:34.801 [main] INFO g.m.c.d.UnitsTemplateCache - size=2
+2022-03-09 13:57:34.802 [main] WARN g.GameServer - load template=class game.module.cross_boss.logic.CrossBossTemplateCache
+2022-03-09 13:57:34.802 [main] INFO g.m.c.l.CrossBossTemplateCache - CrossBossTemplate,size=4
+2022-03-09 13:57:34.803 [main] WARN g.GameServer - load template=class game.module.daily_quest.logic.DailyQuestTemplateCache
+2022-03-09 13:57:34.803 [main] INFO g.m.d.l.DailyQuestTemplateCache - dailyquest size=5
+2022-03-09 13:57:34.804 [main] WARN g.GameServer - load template=class game.module.forge.dao.ForgeTemplateCache
+2022-03-09 13:57:34.805 [main] INFO g.m.f.d.ForgeTemplateCache - size=3
+2022-03-09 13:57:34.805 [main] WARN g.GameServer - load template=class game.module.forge.dao.RuneCombineTemplateCache
+2022-03-09 13:57:34.806 [main] INFO g.m.f.d.RuneCombineTemplateCache - size=3
+2022-03-09 13:57:34.807 [main] WARN g.GameServer - load template=class game.module.game_common.dao.GameCommonTemplateCache
+2022-03-09 13:57:34.808 [main] INFO g.m.g.d.GameCommonTemplateCache - load json gamecommon ok! size=2
+2022-03-09 13:57:34.808 [main] WARN g.GameServer - load template=class game.module.game_common.dao.MatTemplateCache
+2022-03-09 13:57:34.809 [main] INFO g.m.g.d.MatTemplateCache - load json mat ok! size=5
+2022-03-09 13:57:34.810 [main] WARN g.GameServer - load template=class game.module.gm.dao.MarqueeTemplateCache
+2022-03-09 13:57:34.811 [main] INFO g.m.u.d.CommonTemplateCache - size=54
+2022-03-09 13:57:34.811 [main] WARN g.GameServer - load template=class game.module.guild.dao.GuildTemplateCache
+2022-03-09 13:57:34.815 [main] INFO g.m.g.d.GuildTemplateCache - GuildIconTemplate,size=29
+2022-03-09 13:57:34.816 [main] WARN g.GameServer - load template=class game.module.guozhan.dao.CityJoinTemplateCache
+2022-03-09 13:57:34.817 [main] INFO g.m.g.d.CityJoinTemplateCache - size=76
+2022-03-09 13:57:34.818 [main] WARN g.GameServer - load template=class game.module.guozhan.dao.CityListTemplateCache
+2022-03-09 13:57:34.819 [main] WARN g.GameServer - load template=class game.module.guozhan.dao.GuozhanOfficeTemplateCache
+2022-03-09 13:57:34.820 [main] INFO g.m.g.d.GuozhanOfficeTemplateCache - size=10
+2022-03-09 13:57:34.821 [main] WARN g.GameServer - load template=class game.module.guozhan.dao.GuozhanRewardTemplateCache
+2022-03-09 13:57:34.823 [main] INFO g.m.g.d.GuozhanRewardTemplateCache - size=10
+2022-03-09 13:57:34.825 [main] WARN g.GameServer - load template=class game.module.hall.dao.SystemModuleTemplateCache
+2022-03-09 13:57:34.826 [main] INFO g.m.h.d.SystemModuleTemplateCache - SystemModuleTemplate,size=20
+2022-03-09 13:57:34.827 [main] WARN g.GameServer - load template=class game.module.invite.dao.InviteTemplateCache
+2022-03-09 13:57:34.828 [main] INFO g.m.i.d.InviteTemplateCache - InviteTemplate,size=4
+2022-03-09 13:57:34.828 [main] WARN g.GameServer - load template=class game.module.item.template.BoxesTemplateCache
+2022-03-09 13:57:34.831 [main] INFO g.m.i.t.BoxesTemplateCache - size=47
+2022-03-09 13:57:34.832 [main] WARN g.GameServer - load template=class game.module.item.template.CardFragsTemplateCache
+2022-03-09 13:57:34.834 [main] INFO g.m.i.t.CardFragsTemplateCache - size=122
+2022-03-09 13:57:34.834 [main] WARN g.GameServer - load template=class game.module.item.template.ConsumesTemplateCache
+2022-03-09 13:57:34.835 [main] INFO g.m.i.t.ConsumesTemplateCache - size=10
+2022-03-09 13:57:34.836 [main] WARN g.GameServer - load template=class game.module.item.template.EnhanceconfigTemplateCache
+2022-03-09 13:57:34.837 [main] INFO g.m.i.t.EnhanceconfigTemplateCache - size=2
+2022-03-09 13:57:34.838 [main] WARN g.GameServer - load template=class game.module.item.template.EquipFragsTemplateCache
+2022-03-09 13:57:34.840 [main] INFO g.m.i.t.EquipFragsTemplateCache - size=105
+2022-03-09 13:57:34.841 [main] WARN g.GameServer - load template=class game.module.item.template.EquipRefreshTemplateCache
+2022-03-09 13:57:34.842 [main] INFO g.m.i.t.EquipRefreshTemplateCache - size=2
+2022-03-09 13:57:34.843 [main] WARN g.GameServer - load template=class game.module.item.template.EquipsTemplateCache
+2022-03-09 13:57:34.848 [main] INFO g.m.i.t.EquipsTemplateCache - size=117
+2022-03-09 13:57:34.848 [main] WARN g.GameServer - load template=class game.module.item.template.ItemsTemplateCache
+2022-03-09 13:57:34.849 [main] INFO g.m.i.t.ItemsTemplateCache - size=45
+2022-03-09 13:57:34.850 [main] WARN g.GameServer - load template=class game.module.item.template.TreasureFragsTemplateCache
+2022-03-09 13:57:34.851 [main] INFO g.m.i.t.TreasureFragsTemplateCache - size=202
+2022-03-09 13:57:34.851 [main] WARN g.GameServer - load template=class game.module.item.template.TreasureLevelsTemplateCache
+2022-03-09 13:57:34.855 [main] INFO g.m.i.t.TreasureLevelsTemplateCache - size=2
+2022-03-09 13:57:34.858 [main] WARN g.GameServer - load template=class game.module.item.template.TreasureRefineTemplateCache
+2022-03-09 13:57:34.860 [main] INFO g.m.i.t.TreasureRefineTemplateCache - size=36
+2022-03-09 13:57:34.861 [main] WARN g.GameServer - load template=class game.module.item.template.TreasuresTemplateCache
+2022-03-09 13:57:34.862 [main] INFO g.m.i.t.TreasuresTemplateCache - size=40
+2022-03-09 13:57:34.863 [main] WARN g.GameServer - load template=class game.module.item.template.UnitsEquipsTemplateCache
+2022-03-09 13:57:34.864 [main] INFO g.m.i.t.UnitsEquipsTemplateCache - size=75
+2022-03-09 13:57:34.864 [main] WARN g.GameServer - load template=class game.module.mail.dao.MailTemplateCache
+2022-03-09 13:57:34.866 [main] INFO g.m.m.d.MailTemplateCache - MailTemplate,size=27
+2022-03-09 13:57:34.866 [main] WARN g.GameServer - load template=class game.module.mission.daily.dao.DailyMissionsTemplateCache
+2022-03-09 13:57:34.868 [main] INFO g.m.m.d.d.DailyMissionsTemplateCache - size=22
+2022-03-09 13:57:34.869 [main] WARN g.GameServer - load template=class game.module.mission.dao.MissionsTemplateCache
+2022-03-09 13:57:34.872 [main] INFO g.m.m.d.MissionsTemplateCache - size=466
+2022-03-09 13:57:34.872 [main] INFO g.m.m.d.MissionsTemplateCache - unlock_levels=[16, 1, 17, 18, 20, 6, 23, 24, 10, 27, 30, 14]
+2022-03-09 13:57:34.873 [main] WARN g.GameServer - load template=class game.module.newguide.logic.GuideTemplateCache
+2022-03-09 13:57:34.873 [main] INFO g.m.n.l.GuideTemplateCache - GuideTemplate,size=27
+2022-03-09 13:57:34.874 [main] WARN g.GameServer - load template=class game.module.newguide.logic.NoviceTemplateCache
+2022-03-09 13:57:34.875 [main] INFO g.m.n.l.NoviceTemplateCache - NoviceTemplate,size=15
+2022-03-09 13:57:34.875 [main] WARN g.GameServer - load template=class game.module.onlineAward.dao.OnlineAwardTemplateCache
+2022-03-09 13:57:34.876 [main] INFO g.m.o.d.OnlineAwardTemplateCache - OnlineAwardTemplate=[game.module.template.OnlineAwardTemplate@24c1b2d2[id=1,time=0,reward=11080001|2], game.module.template.OnlineAwardTemplate@1e4f4a5c[id=2,time=300,reward=11050002|5], game.module.template.OnlineAwardTemplate@37313c65[id=3,time=600,reward=11040002|5], game.module.template.OnlineAwardTemplate@465232e9[id=4,time=900,reward=1000|50000], game.module.template.OnlineAwardTemplate@798162bc[id=5,time=1800,reward=11170001|2], game.module.template.OnlineAwardTemplate@1df8da7a[id=6,time=3600,reward=1001|20]]
+2022-03-09 13:57:34.883 [main] WARN g.GameServer - load template=class game.module.other.OtherConfigCache
+2022-03-09 13:57:34.884 [main] INFO g.m.o.OtherConfigCache - OtherConfigTemplate,size=164
+2022-03-09 13:57:34.886 [main] WARN g.GameServer - load template=class game.module.overcome.dao.OvercomeRobotsTemplateCache
+2022-03-09 13:57:34.890 [main] INFO g.m.o.d.OvercomeRobotsTemplateCache - size=3
+2022-03-09 13:57:34.892 [main] WARN g.GameServer - load template=class game.module.overcome.dao.OvercomeTemplateCache
+2022-03-09 13:57:34.893 [main] INFO g.m.o.d.OvercomeTemplateCache - size=8
+2022-03-09 13:57:34.894 [main] WARN g.GameServer - load template=class game.module.overcome.dao.RobotNamesTemplateCache
+2022-03-09 13:57:34.895 [main] INFO g.m.o.d.RobotNamesTemplateCache - size=156
+2022-03-09 13:57:34.896 [main] WARN g.GameServer - load template=class game.module.pay.logic.ChargeTemplateCache
+2022-03-09 13:57:34.897 [main] INFO g.m.p.l.ChargeTemplateCache - size=7
+2022-03-09 13:57:34.898 [main] WARN g.GameServer - load template=class game.module.pay.logic.IosRechargeTemplateCache
+2022-03-09 13:57:34.899 [main] INFO g.m.p.l.IosRechargeTemplateCache - IosRechargeTemplate,size=27
+2022-03-09 13:57:34.900 [main] WARN g.GameServer - load template=class game.module.pub.dao.CardGenTemplateCache
+2022-03-09 13:57:34.901 [main] INFO g.m.p.d.CardGenTemplateCache - size=2
+2022-03-09 13:57:34.903 [main] WARN g.GameServer - load template=class game.module.secret.dao.SecretTemplateCache
+2022-03-09 13:57:34.904 [main] INFO g.m.s.d.SecretTemplateCache - size=5
+2022-03-09 13:57:34.904 [main] WARN g.GameServer - load template=class game.module.sign.dao.SignTemplateCache
+2022-03-09 13:57:34.923 [main] WARN g.GameServer - load template=class game.module.stage.dao.EliteStagesTemplateCache
+2022-03-09 13:57:34.926 [main] INFO g.m.s.d.EliteStagesTemplateCache - size=25
+2022-03-09 13:57:34.927 [main] WARN g.GameServer - load template=class game.module.stage.dao.StagesTemplateCache
+2022-03-09 13:57:34.931 [main] INFO g.m.s.d.StagesTemplateCache - size=25
+2022-03-09 13:57:34.931 [main] WARN g.GameServer - load template=class game.module.store.dao.BlackMarketTemplateCache
+2022-03-09 13:57:34.933 [main] INFO g.m.s.d.BlackMarketTemplateCache - size=6
+2022-03-09 13:57:34.933 [main] WARN g.GameServer - load template=class game.module.store.dao.MallTemplateCache
+2022-03-09 13:57:34.934 [main] INFO g.m.s.d.MallTemplateCache - size=3
+2022-03-09 13:57:34.935 [main] WARN g.GameServer - load template=class game.module.teamskill.dao.TeamskillsTemplateCache
+2022-03-09 13:57:34.936 [main] INFO g.m.t.d.TeamskillsTemplateCache - size=4
+2022-03-09 13:57:34.936 [main] WARN g.GameServer - load template=class game.module.tresure_rob.dao.TreasureRobTemplateCache
+2022-03-09 13:57:34.937 [main] INFO g.m.t.d.TreasureRobTemplateCache - size=7
+2022-03-09 13:57:34.938 [main] WARN g.GameServer - load template=class game.module.user.dao.CommonTemplateCache
+2022-03-09 13:57:34.939 [main] INFO g.m.u.d.CommonTemplateCache - size=54
+2022-03-09 13:57:34.940 [main] WARN g.GameServer - load template=class game.module.user.dao.HeadFrameTemplateCache
+2022-03-09 13:57:34.941 [main] INFO g.m.u.d.HeadFrameTemplateCache - HeadFrame,size=10
+2022-03-09 13:57:34.941 [main] INFO g.m.u.d.HeadFrameTemplateCache - HeadFrameFrags,size=5
+2022-03-09 13:57:34.942 [main] WARN g.GameServer - load template=class game.module.user.dao.LevelsTemplateCache
+2022-03-09 13:57:34.944 [main] INFO g.m.u.d.LevelsTemplateCache - size=100
+2022-03-09 13:57:34.945 [main] WARN g.GameServer - load template=class game.module.user.dao.UnlockTemplateCache
+2022-03-09 13:57:34.946 [main] INFO g.m.u.d.UnlockTemplateCache - size=46
+2022-03-09 13:57:34.948 [main] WARN g.GameServer - load template=class game.module.wanba.dao.WanbaGiftemplateCache
+2022-03-09 13:57:34.950 [main] INFO g.m.w.d.WanbaGiftemplateCache - size=16
+2022-03-09 13:57:34.951 [main] INFO g.m.u.l.TopupFeedbackManager - reload 月卡，成长基金充值反馈!
+2022-03-09 13:57:35.001 [main] INFO g.m.u.l.TopupFeedbackManager - 测试服充值反馈，hasFeedback=false,yueka=0,nianka=0,chengzhangjijin=0
+2022-03-09 13:57:35.003 [main] WARN g.GameServer - init player offline cache!
+2022-03-09 13:57:35.157 [main] INFO g.m.o.l.PlayerOfflineManager - offline players,size=33
+2022-03-09 13:57:35.985 [main] WARN g.GameServer - start netty server
+2022-03-09 13:57:36.074 [main] WARN i.n.b.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x0fb7e5bb]'
+2022-03-09 13:57:36.079 [main] WARN l.w.WebsocketServer - websocket server listen on http:2082 successfully!
+2022-03-09 13:57:36.079 [main] INFO g.GameServer - init http server!
+2022-03-09 13:57:36.079 [main] WARN g.GameServer - init http server,port=11001!
+2022-03-09 13:57:36.087 [main] WARN l.h.Netty4HttpServer - Netty4 HttpServer listening on port:11001 successfully!
+2022-03-09 13:57:36.088 [main] WARN l.h.Netty4HttpServer - Netty4 HttpServer listening on port:8082 successfully!
+2022-03-09 13:57:36.088 [main] WARN g.GameServer - init quartz jobs!
+2022-03-09 13:57:36.098 [main] INFO o.q.c.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-03-09 13:57:36.098 [main] INFO o.q.c.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2022-03-09 13:57:36.100 [main] INFO o.q.s.RAMJobStore - RAMJobStore initialized.
+2022-03-09 13:57:36.100 [main] INFO o.q.c.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'Quartz_Scheduler' with instanceId 'Quartz_Scheduler_Instance'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 2 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-03-09 13:57:36.100 [main] INFO o.q.i.DirectSchedulerFactory - Quartz scheduler 'Quartz_Scheduler
+2022-03-09 13:57:36.100 [main] INFO o.q.i.DirectSchedulerFactory - Quartz scheduler version: 2.2.3
+2022-03-09 13:57:36.106 [main] INFO o.q.c.QuartzScheduler - Scheduler Quartz_Scheduler_$_Quartz_Scheduler_Instance started.
+2022-03-09 13:57:36.167 [main] INFO o.m.d.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-03-09 13:57:36.167 [main] INFO o.m.d.cluster - Adding discovered server 127.0.0.1:27017 to client view of cluster
+2022-03-09 13:57:36.184 [main] WARN g.GameServer - init bad word!
+2022-03-09 13:57:36.191 [cluster-ClusterId{value='62284fe0e4ca2066eb951d95', description='null'}-127.0.0.1:27017] INFO o.m.d.connection - Opened connection [connectionId{localValue:1, serverValue:3}] to 127.0.0.1:27017
+2022-03-09 13:57:36.191 [main] INFO g.m.b.d.BadWordTemplateCache - BadWordTemplate,size=17792
+2022-03-09 13:57:36.194 [cluster-ClusterId{value='62284fe0e4ca2066eb951d95', description='null'}-127.0.0.1:27017] INFO o.m.d.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 5]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1983125}
+2022-03-09 13:57:36.195 [cluster-ClusterId{value='62284fe0e4ca2066eb951d95', description='null'}-127.0.0.1:27017] INFO o.m.d.cluster - Discovered cluster type of STANDALONE
+2022-03-09 13:57:36.210 [main] WARN i.n.b.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xb75c004e]'
+2022-03-09 13:57:36.211 [main] WARN l.l.LanServer - lan server listen on port:12001 successfully!
+2022-03-09 13:57:36.215 [main] WARN g.GameServer - init arena!
+2022-03-09 13:57:41.454 [nioEventLoopGroup-5-1] INFO l.h.HttpMapUri - receive http request:/api/v1/subreward
+2022-03-09 13:57:41.466 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 479 personal activity cache data, load success
+2022-03-09 13:57:42.771 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：479的邮件缓存数据加载成功
+2022-03-09 13:57:42.773 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：479的签到缓存数据加载成功
+2022-03-09 13:57:42.780 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：479的在线奖励缓存数据加载成功
+2022-03-09 13:57:42.824 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：479的秘密基地缓存数据加载成功
+2022-03-09 13:57:42.853 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：479, loadFromDb battle arena success!
+2022-03-09 13:57:42.875 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:479Friends cache data loading success
+2022-03-09 13:57:42.879 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=479, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:42.880 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=479, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:42.880 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=479, templateId=1103, count=20, current_count=3,con_lai=-17
+2022-03-09 13:57:42.881 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=479, templateId=1002, count=1000, current_count=69782,con_lai=68782
+2022-03-09 13:57:42.882 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=479, templateId=1451, count=1, current_count=18144,con_lai=17144
+2022-03-09 13:57:42.888 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:42.888 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 479: 
+2022-03-09 13:57:42.889 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 884 personal activity cache data, load success
+2022-03-09 13:57:44.218 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：884的邮件缓存数据加载成功
+2022-03-09 13:57:44.219 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：884的签到缓存数据加载成功
+2022-03-09 13:57:44.219 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：884的在线奖励缓存数据加载成功
+2022-03-09 13:57:44.225 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：884的秘密基地缓存数据加载成功
+2022-03-09 13:57:44.228 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：884, loadFromDb battle arena success!
+2022-03-09 13:57:44.239 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:884Friends cache data loading success
+2022-03-09 13:57:44.239 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=884, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:44.239 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=884, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:44.240 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=884, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:44.240 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=884, templateId=1002, count=1000, current_count=359,con_lai=-641
+2022-03-09 13:57:44.240 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=884, templateId=1451, count=1, current_count=59592,con_lai=58592
+2022-03-09 13:57:44.241 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:44.242 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 884: 
+2022-03-09 13:57:44.243 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 14156 personal activity cache data, load success
+2022-03-09 13:57:45.500 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：14156的邮件缓存数据加载成功
+2022-03-09 13:57:45.501 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：14156的签到缓存数据加载成功
+2022-03-09 13:57:45.502 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：14156的在线奖励缓存数据加载成功
+2022-03-09 13:57:45.507 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：14156的秘密基地缓存数据加载成功
+2022-03-09 13:57:45.510 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：14156, loadFromDb battle arena success!
+2022-03-09 13:57:45.521 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:14156Friends cache data loading success
+2022-03-09 13:57:45.521 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=14156, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:45.521 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=14156, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:45.522 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=14156, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:45.522 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=14156, templateId=1002, count=1000, current_count=15352,con_lai=14352
+2022-03-09 13:57:45.522 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=14156, templateId=1451, count=1, current_count=5105,con_lai=4105
+2022-03-09 13:57:45.523 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:45.523 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 14156: 
+2022-03-09 13:57:45.524 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 17538 personal activity cache data, load success
+2022-03-09 13:57:46.765 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：17538的邮件缓存数据加载成功
+2022-03-09 13:57:46.765 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：17538的签到缓存数据加载成功
+2022-03-09 13:57:46.765 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：17538的在线奖励缓存数据加载成功
+2022-03-09 13:57:46.770 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：17538的秘密基地缓存数据加载成功
+2022-03-09 13:57:46.772 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：17538, loadFromDb battle arena success!
+2022-03-09 13:57:46.782 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:17538Friends cache data loading success
+2022-03-09 13:57:46.783 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=17538, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:46.783 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=17538, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:46.783 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=17538, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:46.784 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=17538, templateId=1002, count=1000, current_count=0,con_lai=-1000
+2022-03-09 13:57:46.784 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=17538, templateId=1451, count=1, current_count=0,con_lai=-1000
+2022-03-09 13:57:46.784 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:46.784 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 17538: 
+2022-03-09 13:57:46.785 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 17718 personal activity cache data, load success
+2022-03-09 13:57:48.004 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：17718的邮件缓存数据加载成功
+2022-03-09 13:57:48.004 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：17718的签到缓存数据加载成功
+2022-03-09 13:57:48.005 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：17718的在线奖励缓存数据加载成功
+2022-03-09 13:57:48.009 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：17718的秘密基地缓存数据加载成功
+2022-03-09 13:57:48.011 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：17718, loadFromDb battle arena success!
+2022-03-09 13:57:48.022 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:17718Friends cache data loading success
+2022-03-09 13:57:48.022 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=17718, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:48.022 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=17718, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:48.023 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=17718, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:48.023 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=17718, templateId=1002, count=1000, current_count=3181,con_lai=2181
+2022-03-09 13:57:48.023 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=17718, templateId=1451, count=1, current_count=23225,con_lai=22225
+2022-03-09 13:57:48.024 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:48.025 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 17718: 
+2022-03-09 13:57:48.027 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 19049 personal activity cache data, load success
+2022-03-09 13:57:49.276 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：19049的邮件缓存数据加载成功
+2022-03-09 13:57:49.277 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：19049的签到缓存数据加载成功
+2022-03-09 13:57:49.277 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：19049的在线奖励缓存数据加载成功
+2022-03-09 13:57:49.282 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：19049的秘密基地缓存数据加载成功
+2022-03-09 13:57:49.284 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：19049, loadFromDb battle arena success!
+2022-03-09 13:57:49.295 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:19049Friends cache data loading success
+2022-03-09 13:57:49.295 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=19049, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:49.296 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=19049, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:49.296 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=19049, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:49.296 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=19049, templateId=1002, count=1000, current_count=264,con_lai=-736
+2022-03-09 13:57:49.297 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=19049, templateId=1451, count=1, current_count=1925,con_lai=925
+2022-03-09 13:57:49.297 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:49.298 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 19049: 
+2022-03-09 13:57:49.299 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 20007 personal activity cache data, load success
+2022-03-09 13:57:50.552 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：20007的邮件缓存数据加载成功
+2022-03-09 13:57:50.552 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：20007的签到缓存数据加载成功
+2022-03-09 13:57:50.553 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：20007的在线奖励缓存数据加载成功
+2022-03-09 13:57:50.558 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：20007的秘密基地缓存数据加载成功
+2022-03-09 13:57:50.561 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：20007, loadFromDb battle arena success!
+2022-03-09 13:57:50.573 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:20007Friends cache data loading success
+2022-03-09 13:57:50.574 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=20007, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:50.574 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=20007, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:50.574 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=20007, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:50.574 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=20007, templateId=1002, count=1000, current_count=0,con_lai=-1000
+2022-03-09 13:57:50.575 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=20007, templateId=1451, count=1, current_count=21296,con_lai=20296
+2022-03-09 13:57:50.575 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:50.576 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 20007: 
+2022-03-09 13:57:50.577 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 30081 personal activity cache data, load success
+2022-03-09 13:57:51.814 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：30081的邮件缓存数据加载成功
+2022-03-09 13:57:51.815 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：30081的签到缓存数据加载成功
+2022-03-09 13:57:51.816 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：30081的在线奖励缓存数据加载成功
+2022-03-09 13:57:51.820 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：30081的秘密基地缓存数据加载成功
+2022-03-09 13:57:51.821 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：30081, loadFromDb battle arena success!
+2022-03-09 13:57:51.833 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:30081Friends cache data loading success
+2022-03-09 13:57:51.833 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=30081, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:51.833 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=30081, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:51.833 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=30081, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:51.834 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=30081, templateId=1002, count=1000, current_count=1882,con_lai=882
+2022-03-09 13:57:51.834 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=30081, templateId=1451, count=1, current_count=1585,con_lai=585
+2022-03-09 13:57:51.835 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:51.835 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 30081: 
+2022-03-09 13:57:51.837 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 32808 personal activity cache data, load success
+2022-03-09 13:57:53.073 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：32808的邮件缓存数据加载成功
+2022-03-09 13:57:53.073 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：32808的签到缓存数据加载成功
+2022-03-09 13:57:53.074 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：32808的在线奖励缓存数据加载成功
+2022-03-09 13:57:53.079 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：32808的秘密基地缓存数据加载成功
+2022-03-09 13:57:53.081 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：32808, loadFromDb battle arena success!
+2022-03-09 13:57:53.091 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:32808Friends cache data loading success
+2022-03-09 13:57:53.092 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=32808, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:53.092 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=32808, templateId=1603, count=20, current_count=1,con_lai=-19
+2022-03-09 13:57:53.092 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=32808, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:53.093 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=32808, templateId=1002, count=1000, current_count=1588,con_lai=588
+2022-03-09 13:57:53.093 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=32808, templateId=1451, count=1, current_count=90,con_lai=-910
+2022-03-09 13:57:53.094 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:53.094 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 32808: 
+2022-03-09 13:57:53.095 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 53531 personal activity cache data, load success
+2022-03-09 13:57:54.348 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：53531的邮件缓存数据加载成功
+2022-03-09 13:57:54.349 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：53531的签到缓存数据加载成功
+2022-03-09 13:57:54.349 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：53531的在线奖励缓存数据加载成功
+2022-03-09 13:57:54.355 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：53531的秘密基地缓存数据加载成功
+2022-03-09 13:57:54.356 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：53531, loadFromDb battle arena success!
+2022-03-09 13:57:54.366 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:53531Friends cache data loading success
+2022-03-09 13:57:54.366 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=53531, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:54.367 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=53531, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:54.367 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=53531, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:54.367 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=53531, templateId=1002, count=1000, current_count=112,con_lai=-888
+2022-03-09 13:57:54.367 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=53531, templateId=1451, count=1, current_count=26138,con_lai=25138
+2022-03-09 13:57:54.368 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:54.368 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 53531: 
+2022-03-09 13:57:54.370 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 56054 personal activity cache data, load success
+2022-03-09 13:57:55.643 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：56054的邮件缓存数据加载成功
+2022-03-09 13:57:55.643 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：56054的签到缓存数据加载成功
+2022-03-09 13:57:55.644 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：56054的在线奖励缓存数据加载成功
+2022-03-09 13:57:55.651 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：56054的秘密基地缓存数据加载成功
+2022-03-09 13:57:55.652 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：56054, loadFromDb battle arena success!
+2022-03-09 13:57:55.662 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:56054Friends cache data loading success
+2022-03-09 13:57:55.663 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=56054, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:55.663 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=56054, templateId=1603, count=20, current_count=46,con_lai=26
+2022-03-09 13:57:55.663 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=56054, templateId=1103, count=20, current_count=29,con_lai=9
+2022-03-09 13:57:55.664 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=56054, templateId=1002, count=1000, current_count=1553,con_lai=553
+2022-03-09 13:57:55.664 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=56054, templateId=1451, count=1, current_count=1233,con_lai=233
+2022-03-09 13:57:55.665 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:55.667 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=56054,cardTplId=19,costCount=9999
+2022-03-09 13:57:55.686 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 56054: 5104|2-1104|43715-1008|91-1451|2500-1064|0-1002|400-1450|972545-1006|18
+2022-03-09 13:57:55.693 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 60032 personal activity cache data, load success
+2022-03-09 13:57:56.954 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：60032的邮件缓存数据加载成功
+2022-03-09 13:57:56.955 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：60032的签到缓存数据加载成功
+2022-03-09 13:57:56.956 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：60032的在线奖励缓存数据加载成功
+2022-03-09 13:57:56.964 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：60032的秘密基地缓存数据加载成功
+2022-03-09 13:57:56.965 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：60032, loadFromDb battle arena success!
+2022-03-09 13:57:56.976 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:60032Friends cache data loading success
+2022-03-09 13:57:56.977 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=60032, templateId=1205, count=40, current_count=10,con_lai=-30
+2022-03-09 13:57:56.977 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=60032, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:56.978 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=60032, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:56.978 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=60032, templateId=1002, count=1000, current_count=3167,con_lai=2167
+2022-03-09 13:57:56.978 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=60032, templateId=1451, count=1, current_count=5711,con_lai=4711
+2022-03-09 13:57:56.979 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:56.980 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 60032: 
+2022-03-09 13:57:56.981 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 65824 personal activity cache data, load success
+2022-03-09 13:57:58.227 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：65824的邮件缓存数据加载成功
+2022-03-09 13:57:58.227 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：65824的签到缓存数据加载成功
+2022-03-09 13:57:58.228 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：65824的在线奖励缓存数据加载成功
+2022-03-09 13:57:58.233 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：65824的秘密基地缓存数据加载成功
+2022-03-09 13:57:58.234 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：65824, loadFromDb battle arena success!
+2022-03-09 13:57:58.244 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:65824Friends cache data loading success
+2022-03-09 13:57:58.245 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=65824, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:58.245 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=65824, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:58.245 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=65824, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:58.245 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=65824, templateId=1002, count=1000, current_count=0,con_lai=-1000
+2022-03-09 13:57:58.246 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=65824, templateId=1451, count=1, current_count=0,con_lai=-1000
+2022-03-09 13:57:58.246 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:58.246 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 65824: 
+2022-03-09 13:57:58.247 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 68231 personal activity cache data, load success
+2022-03-09 13:57:59.477 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：68231的邮件缓存数据加载成功
+2022-03-09 13:57:59.477 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：68231的签到缓存数据加载成功
+2022-03-09 13:57:59.478 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：68231的在线奖励缓存数据加载成功
+2022-03-09 13:57:59.483 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：68231的秘密基地缓存数据加载成功
+2022-03-09 13:57:59.484 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：68231, loadFromDb battle arena success!
+2022-03-09 13:57:59.493 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:68231Friends cache data loading success
+2022-03-09 13:57:59.494 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=68231, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:57:59.494 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=68231, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:59.494 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=68231, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:57:59.494 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=68231, templateId=1002, count=1000, current_count=1316,con_lai=316
+2022-03-09 13:57:59.495 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=68231, templateId=1451, count=1, current_count=3968,con_lai=2968
+2022-03-09 13:57:59.495 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:57:59.496 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 68231: 
+2022-03-09 13:57:59.497 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 79010 personal activity cache data, load success
+2022-03-09 13:58:00.726 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：79010的邮件缓存数据加载成功
+2022-03-09 13:58:00.727 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：79010的签到缓存数据加载成功
+2022-03-09 13:58:00.727 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：79010的在线奖励缓存数据加载成功
+2022-03-09 13:58:00.733 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：79010的秘密基地缓存数据加载成功
+2022-03-09 13:58:00.734 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：79010, loadFromDb battle arena success!
+2022-03-09 13:58:00.744 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:79010Friends cache data loading success
+2022-03-09 13:58:00.745 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=79010, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:00.745 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=79010, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:58:00.745 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=79010, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:58:00.745 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=79010, templateId=1002, count=1000, current_count=4345,con_lai=3345
+2022-03-09 13:58:00.745 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=79010, templateId=1451, count=1, current_count=609,con_lai=-391
+2022-03-09 13:58:00.746 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:00.746 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 79010: 
+2022-03-09 13:58:00.748 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 90555 personal activity cache data, load success
+2022-03-09 13:58:01.991 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：90555的邮件缓存数据加载成功
+2022-03-09 13:58:01.992 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：90555的签到缓存数据加载成功
+2022-03-09 13:58:01.992 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：90555的在线奖励缓存数据加载成功
+2022-03-09 13:58:01.998 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：90555的秘密基地缓存数据加载成功
+2022-03-09 13:58:02.000 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：90555, loadFromDb battle arena success!
+2022-03-09 13:58:02.010 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:90555Friends cache data loading success
+2022-03-09 13:58:02.011 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=90555, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:02.011 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=90555, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:58:02.011 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=90555, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:58:02.011 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=90555, templateId=1002, count=1000, current_count=36,con_lai=-964
+2022-03-09 13:58:02.012 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=90555, templateId=1451, count=1, current_count=4226,con_lai=3226
+2022-03-09 13:58:02.012 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:02.013 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 90555: 
+2022-03-09 13:58:02.014 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 122328 personal activity cache data, load success
+2022-03-09 13:58:03.242 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：122328的邮件缓存数据加载成功
+2022-03-09 13:58:03.243 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：122328的签到缓存数据加载成功
+2022-03-09 13:58:03.244 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：122328的在线奖励缓存数据加载成功
+2022-03-09 13:58:03.249 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：122328的秘密基地缓存数据加载成功
+2022-03-09 13:58:03.251 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：122328, loadFromDb battle arena success!
+2022-03-09 13:58:03.261 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:122328Friends cache data loading success
+2022-03-09 13:58:03.262 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=122328, templateId=1205, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:03.262 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=122328, templateId=1603, count=20, current_count=0,con_lai=-20
+2022-03-09 13:58:03.262 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=122328, templateId=1103, count=20, current_count=0,con_lai=-20
+2022-03-09 13:58:03.262 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=122328, templateId=1002, count=1000, current_count=363,con_lai=-637
+2022-03-09 13:58:03.263 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=122328, templateId=1451, count=1, current_count=29845,con_lai=28845
+2022-03-09 13:58:03.263 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:03.264 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 122328: 
+2022-03-09 13:58:03.264 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 46 personal activity cache data, load success
+2022-03-09 13:58:04.478 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：46的邮件缓存数据加载成功
+2022-03-09 13:58:04.478 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：46的签到缓存数据加载成功
+2022-03-09 13:58:04.479 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：46的在线奖励缓存数据加载成功
+2022-03-09 13:58:04.483 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：46的秘密基地缓存数据加载成功
+2022-03-09 13:58:04.484 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：46, loadFromDb battle arena success!
+2022-03-09 13:58:04.494 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:46Friends cache data loading success
+2022-03-09 13:58:04.495 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=46, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:04.495 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=46, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:04.495 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=46, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:04.495 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=46, templateId=1002, count=2000, current_count=7109,con_lai=5109
+2022-03-09 13:58:04.496 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=46, templateId=1451, count=2, current_count=0,con_lai=-2000
+2022-03-09 13:58:04.496 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:04.496 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=46,cardTplId=19,costCount=9999
+2022-03-09 13:58:04.506 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 46: 1104|762957-1008|855-5106|2-5204|1-1451|2500-1064|0-1002|400-1450|5063865
+2022-03-09 13:58:04.507 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 9213 personal activity cache data, load success
+2022-03-09 13:58:05.743 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：9213的邮件缓存数据加载成功
+2022-03-09 13:58:05.743 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：9213的签到缓存数据加载成功
+2022-03-09 13:58:05.744 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：9213的在线奖励缓存数据加载成功
+2022-03-09 13:58:05.748 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：9213的秘密基地缓存数据加载成功
+2022-03-09 13:58:05.750 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：9213, loadFromDb battle arena success!
+2022-03-09 13:58:05.760 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:9213Friends cache data loading success
+2022-03-09 13:58:05.760 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=9213, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:05.761 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=9213, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:05.761 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=9213, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:05.761 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=9213, templateId=1002, count=2000, current_count=11985,con_lai=9985
+2022-03-09 13:58:05.762 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=9213, templateId=1451, count=2, current_count=6207,con_lai=4207
+2022-03-09 13:58:05.762 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:05.763 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=9213,cardTplId=19,costCount=9999
+2022-03-09 13:58:05.768 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 9213: 1104|50-1008|750-1450|3754000-1006|20
+2022-03-09 13:58:05.770 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 26192 personal activity cache data, load success
+2022-03-09 13:58:06.997 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：26192的邮件缓存数据加载成功
+2022-03-09 13:58:06.997 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：26192的签到缓存数据加载成功
+2022-03-09 13:58:06.997 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：26192的在线奖励缓存数据加载成功
+2022-03-09 13:58:07.002 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：26192的秘密基地缓存数据加载成功
+2022-03-09 13:58:07.003 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：26192, loadFromDb battle arena success!
+2022-03-09 13:58:07.013 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:26192Friends cache data loading success
+2022-03-09 13:58:07.013 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=26192, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:07.013 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=26192, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:07.014 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=26192, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:07.014 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=26192, templateId=1002, count=2000, current_count=344,con_lai=-1656
+2022-03-09 13:58:07.014 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=26192, templateId=1451, count=2, current_count=5061,con_lai=3061
+2022-03-09 13:58:07.015 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:07.015 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=26192,cardTplId=19,costCount=9999
+2022-03-09 13:58:07.020 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 26192: 1104|50
+2022-03-09 13:58:07.021 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 31027 personal activity cache data, load success
+2022-03-09 13:58:08.234 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：31027的邮件缓存数据加载成功
+2022-03-09 13:58:08.234 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：31027的签到缓存数据加载成功
+2022-03-09 13:58:08.235 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：31027的在线奖励缓存数据加载成功
+2022-03-09 13:58:08.239 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：31027的秘密基地缓存数据加载成功
+2022-03-09 13:58:08.240 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：31027, loadFromDb battle arena success!
+2022-03-09 13:58:08.250 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:31027Friends cache data loading success
+2022-03-09 13:58:08.250 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=31027, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:08.251 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=31027, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:08.251 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=31027, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:08.251 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=31027, templateId=1002, count=2000, current_count=1735,con_lai=-265
+2022-03-09 13:58:08.251 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=31027, templateId=1451, count=2, current_count=54045,con_lai=52045
+2022-03-09 13:58:08.252 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:08.252 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=31027,cardTplId=19,costCount=9999
+2022-03-09 13:58:08.257 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 31027: 1104|50
+2022-03-09 13:58:08.258 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 36602 personal activity cache data, load success
+2022-03-09 13:58:09.528 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：36602的邮件缓存数据加载成功
+2022-03-09 13:58:09.529 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：36602的签到缓存数据加载成功
+2022-03-09 13:58:09.530 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：36602的在线奖励缓存数据加载成功
+2022-03-09 13:58:09.535 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：36602的秘密基地缓存数据加载成功
+2022-03-09 13:58:09.536 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：36602, loadFromDb battle arena success!
+2022-03-09 13:58:09.546 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:36602Friends cache data loading success
+2022-03-09 13:58:09.546 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=36602, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:09.547 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=36602, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:09.547 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=36602, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:09.547 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=36602, templateId=1002, count=2000, current_count=12568,con_lai=10568
+2022-03-09 13:58:09.547 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=36602, templateId=1451, count=2, current_count=269946,con_lai=267946
+2022-03-09 13:58:09.548 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:09.548 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=36602,cardTplId=19,costCount=9999
+2022-03-09 13:58:09.554 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 36602: 1104|14003-1008|574-1451|2500-1064|0-1002|400-1450|3375780-1006|5
+2022-03-09 13:58:09.556 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 38694 personal activity cache data, load success
+2022-03-09 13:58:10.778 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：38694的邮件缓存数据加载成功
+2022-03-09 13:58:10.779 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：38694的签到缓存数据加载成功
+2022-03-09 13:58:10.779 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：38694的在线奖励缓存数据加载成功
+2022-03-09 13:58:10.784 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：38694的秘密基地缓存数据加载成功
+2022-03-09 13:58:10.786 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：38694, loadFromDb battle arena success!
+2022-03-09 13:58:10.796 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:38694Friends cache data loading success
+2022-03-09 13:58:10.796 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=38694, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:10.802 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=38694, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:10.802 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=38694, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:10.803 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=38694, templateId=1002, count=2000, current_count=1666,con_lai=-334
+2022-03-09 13:58:10.803 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=38694, templateId=1451, count=2, current_count=1796,con_lai=-204
+2022-03-09 13:58:10.803 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:10.804 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=38694,cardTplId=19,costCount=9999
+2022-03-09 13:58:10.808 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 38694: 1104|14003-1008|793-1450|3972800-1006|15
+2022-03-09 13:58:10.810 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 85146 personal activity cache data, load success
+2022-03-09 13:58:12.039 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：85146的邮件缓存数据加载成功
+2022-03-09 13:58:12.039 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：85146的签到缓存数据加载成功
+2022-03-09 13:58:12.040 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：85146的在线奖励缓存数据加载成功
+2022-03-09 13:58:12.046 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：85146的秘密基地缓存数据加载成功
+2022-03-09 13:58:12.047 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：85146, loadFromDb battle arena success!
+2022-03-09 13:58:12.057 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:85146Friends cache data loading success
+2022-03-09 13:58:12.057 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=85146, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:12.057 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=85146, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:12.057 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=85146, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:12.058 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=85146, templateId=1002, count=2000, current_count=32862,con_lai=30862
+2022-03-09 13:58:12.058 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=85146, templateId=1451, count=2, current_count=480588,con_lai=478588
+2022-03-09 13:58:12.058 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:12.058 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=85146,cardTplId=19,costCount=9999
+2022-03-09 13:58:12.067 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 85146: 1104|50
+2022-03-09 13:58:12.069 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 92072 personal activity cache data, load success
+2022-03-09 13:58:13.294 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：92072的邮件缓存数据加载成功
+2022-03-09 13:58:13.295 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：92072的签到缓存数据加载成功
+2022-03-09 13:58:13.296 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：92072的在线奖励缓存数据加载成功
+2022-03-09 13:58:13.300 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：92072的秘密基地缓存数据加载成功
+2022-03-09 13:58:13.301 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：92072, loadFromDb battle arena success!
+2022-03-09 13:58:13.311 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:92072Friends cache data loading success
+2022-03-09 13:58:13.311 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=92072, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:13.311 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=92072, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:13.311 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=92072, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:13.311 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=92072, templateId=1002, count=2000, current_count=1766,con_lai=-234
+2022-03-09 13:58:13.312 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=92072, templateId=1451, count=2, current_count=0,con_lai=-2000
+2022-03-09 13:58:13.312 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:13.312 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=92072,cardTplId=19,costCount=9999
+2022-03-09 13:58:13.314 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 92072: 1104|72450-1008|532-1060|70-1451|2500-1064|0-5209|3-1002|400-1450|3194965-5309|1-1006|20
+2022-03-09 13:58:13.316 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 94590 personal activity cache data, load success
+2022-03-09 13:58:14.529 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：94590的邮件缓存数据加载成功
+2022-03-09 13:58:14.529 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：94590的签到缓存数据加载成功
+2022-03-09 13:58:14.530 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：94590的在线奖励缓存数据加载成功
+2022-03-09 13:58:14.534 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：94590的秘密基地缓存数据加载成功
+2022-03-09 13:58:14.536 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：94590, loadFromDb battle arena success!
+2022-03-09 13:58:14.545 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:94590Friends cache data loading success
+2022-03-09 13:58:14.546 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=94590, templateId=1205, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:14.546 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=94590, templateId=1603, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:14.546 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=94590, templateId=1103, count=40, current_count=0,con_lai=-40
+2022-03-09 13:58:14.546 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=94590, templateId=1002, count=2000, current_count=2248,con_lai=248
+2022-03-09 13:58:14.547 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=94590, templateId=1451, count=2, current_count=25840,con_lai=23840
+2022-03-09 13:58:14.547 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:14.548 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 94590: 
+2022-03-09 13:58:14.549 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 774 personal activity cache data, load success
+2022-03-09 13:58:15.748 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：774的邮件缓存数据加载成功
+2022-03-09 13:58:15.748 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：774的签到缓存数据加载成功
+2022-03-09 13:58:15.749 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：774的在线奖励缓存数据加载成功
+2022-03-09 13:58:15.752 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：774的秘密基地缓存数据加载成功
+2022-03-09 13:58:15.754 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：774, loadFromDb battle arena success!
+2022-03-09 13:58:15.764 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:774Friends cache data loading success
+2022-03-09 13:58:15.764 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=774, templateId=1205, count=120, current_count=0,con_lai=-120
+2022-03-09 13:58:15.765 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=774, templateId=1603, count=60, current_count=0,con_lai=-60
+2022-03-09 13:58:15.765 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=774, templateId=1103, count=60, current_count=0,con_lai=-60
+2022-03-09 13:58:15.765 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=774, templateId=1002, count=3000, current_count=809,con_lai=-2191
+2022-03-09 13:58:15.765 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=774, templateId=1451, count=3, current_count=7096,con_lai=4096
+2022-03-09 13:58:15.766 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:15.766 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=774,cardTplId=19,costCount=9999
+2022-03-09 13:58:15.770 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 774: 1104|37179-1008|10-1450|66365-1006|13
+2022-03-09 13:58:15.772 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 12088 personal activity cache data, load success
+2022-03-09 13:58:16.997 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：12088的邮件缓存数据加载成功
+2022-03-09 13:58:16.998 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：12088的签到缓存数据加载成功
+2022-03-09 13:58:16.999 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：12088的在线奖励缓存数据加载成功
+2022-03-09 13:58:17.004 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：12088的秘密基地缓存数据加载成功
+2022-03-09 13:58:17.005 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：12088, loadFromDb battle arena success!
+2022-03-09 13:58:17.015 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:12088Friends cache data loading success
+2022-03-09 13:58:17.016 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=12088, templateId=1205, count=120, current_count=0,con_lai=-120
+2022-03-09 13:58:17.016 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=12088, templateId=1603, count=60, current_count=0,con_lai=-60
+2022-03-09 13:58:17.016 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=12088, templateId=1103, count=60, current_count=0,con_lai=-60
+2022-03-09 13:58:17.016 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=12088, templateId=1002, count=3000, current_count=0,con_lai=-3000
+2022-03-09 13:58:17.017 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=12088, templateId=1451, count=3, current_count=0,con_lai=-3000
+2022-03-09 13:58:17.017 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:17.017 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=12088,cardTplId=19,costCount=9999
+2022-03-09 13:58:17.019 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 12088: 5312|2-1104|19472-1008|682-5202|3-1060|20-1451|2500-1064|0-5209|3-1002|400-1450|3914740
+2022-03-09 13:58:17.021 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 73100 personal activity cache data, load success
+2022-03-09 13:58:18.250 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：73100的邮件缓存数据加载成功
+2022-03-09 13:58:18.250 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：73100的签到缓存数据加载成功
+2022-03-09 13:58:18.251 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：73100的在线奖励缓存数据加载成功
+2022-03-09 13:58:18.257 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：73100的秘密基地缓存数据加载成功
+2022-03-09 13:58:18.258 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：73100, loadFromDb battle arena success!
+2022-03-09 13:58:18.268 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:73100Friends cache data loading success
+2022-03-09 13:58:18.269 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=73100, templateId=1205, count=120, current_count=0,con_lai=-120
+2022-03-09 13:58:18.269 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=73100, templateId=1603, count=60, current_count=0,con_lai=-60
+2022-03-09 13:58:18.269 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=73100, templateId=1103, count=60, current_count=0,con_lai=-60
+2022-03-09 13:58:18.269 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=73100, templateId=1002, count=3000, current_count=0,con_lai=-3000
+2022-03-09 13:58:18.269 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=73100, templateId=1451, count=3, current_count=0,con_lai=-3000
+2022-03-09 13:58:18.269 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:18.270 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=73100,cardTplId=19,costCount=9999
+2022-03-09 13:58:18.274 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 73100: 1104|555062-1008|705-5108|2-1060|170-5110|2-5206|1-1451|2500-1064|1-1002|2400-1450|5252490-1006|9-5311|1-5215|3
+2022-03-09 13:58:18.276 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 96549 personal activity cache data, load success
+2022-03-09 13:58:19.497 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：96549的邮件缓存数据加载成功
+2022-03-09 13:58:19.497 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：96549的签到缓存数据加载成功
+2022-03-09 13:58:19.498 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：96549的在线奖励缓存数据加载成功
+2022-03-09 13:58:19.503 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：96549的秘密基地缓存数据加载成功
+2022-03-09 13:58:19.504 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：96549, loadFromDb battle arena success!
+2022-03-09 13:58:19.514 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:96549Friends cache data loading success
+2022-03-09 13:58:19.514 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=96549, templateId=1205, count=160, current_count=0,con_lai=-160
+2022-03-09 13:58:19.514 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=96549, templateId=1603, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:19.514 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=96549, templateId=1103, count=80, current_count=0,con_lai=-80
+2022-03-09 13:58:19.515 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=96549, templateId=1002, count=4000, current_count=42934,con_lai=38934
+2022-03-09 13:58:19.515 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=96549, templateId=1451, count=4, current_count=260872,con_lai=256872
+2022-03-09 13:58:19.516 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:19.516 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 96549: 
+2022-03-09 13:58:19.517 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 1486 personal activity cache data, load success
+2022-03-09 13:58:20.728 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：1486的邮件缓存数据加载成功
+2022-03-09 13:58:20.728 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：1486的签到缓存数据加载成功
+2022-03-09 13:58:20.728 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：1486的在线奖励缓存数据加载成功
+2022-03-09 13:58:20.733 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：1486的秘密基地缓存数据加载成功
+2022-03-09 13:58:20.735 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：1486, loadFromDb battle arena success!
+2022-03-09 13:58:20.744 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:1486Friends cache data loading success
+2022-03-09 13:58:20.745 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=1486, templateId=1205, count=200, current_count=0,con_lai=-200
+2022-03-09 13:58:20.745 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=1486, templateId=1603, count=100, current_count=0,con_lai=-100
+2022-03-09 13:58:20.745 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=1486, templateId=1103, count=100, current_count=0,con_lai=-100
+2022-03-09 13:58:20.745 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=1486, templateId=1002, count=5000, current_count=20611,con_lai=15611
+2022-03-09 13:58:20.745 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=1486, templateId=1451, count=5, current_count=63344,con_lai=58344
+2022-03-09 13:58:20.746 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:20.747 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=1486,cardTplId=19,costCount=9999
+2022-03-09 13:58:20.751 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 1486: 1104|50-1450|180
+2022-03-09 13:58:20.752 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 68202 personal activity cache data, load success
+2022-03-09 13:58:21.629 [main] WARN g.GameServer - init rank!
+2022-03-09 13:58:22.022 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：68202的邮件缓存数据加载成功
+2022-03-09 13:58:22.022 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：68202的签到缓存数据加载成功
+2022-03-09 13:58:22.022 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：68202的在线奖励缓存数据加载成功
+2022-03-09 13:58:22.034 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：68202的秘密基地缓存数据加载成功
+2022-03-09 13:58:22.035 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：68202, loadFromDb battle arena success!
+2022-03-09 13:58:22.045 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:68202Friends cache data loading success
+2022-03-09 13:58:22.045 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=68202, templateId=1205, count=200, current_count=0,con_lai=-200
+2022-03-09 13:58:22.045 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=68202, templateId=1603, count=100, current_count=0,con_lai=-100
+2022-03-09 13:58:22.045 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=68202, templateId=1103, count=100, current_count=0,con_lai=-100
+2022-03-09 13:58:22.046 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=68202, templateId=1002, count=5000, current_count=0,con_lai=-5000
+2022-03-09 13:58:22.046 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=68202, templateId=1451, count=5, current_count=135721,con_lai=130721
+2022-03-09 13:58:22.047 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:22.047 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=68202,cardTplId=19,costCount=9999
+2022-03-09 13:58:22.057 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 68202: 1104|3181-1450|1065
+2022-03-09 13:58:22.058 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 8777 personal activity cache data, load success
+2022-03-09 13:58:23.315 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：8777的邮件缓存数据加载成功
+2022-03-09 13:58:23.316 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：8777的签到缓存数据加载成功
+2022-03-09 13:58:23.316 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：8777的在线奖励缓存数据加载成功
+2022-03-09 13:58:23.321 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：8777的秘密基地缓存数据加载成功
+2022-03-09 13:58:23.322 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：8777, loadFromDb battle arena success!
+2022-03-09 13:58:23.331 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:8777Friends cache data loading success
+2022-03-09 13:58:23.332 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=8777, templateId=1205, count=240, current_count=0,con_lai=-240
+2022-03-09 13:58:23.332 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=8777, templateId=1603, count=120, current_count=0,con_lai=-120
+2022-03-09 13:58:23.332 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=8777, templateId=1103, count=120, current_count=0,con_lai=-120
+2022-03-09 13:58:23.332 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=8777, templateId=1002, count=6000, current_count=0,con_lai=-6000
+2022-03-09 13:58:23.332 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=8777, templateId=1451, count=6, current_count=684,con_lai=-5316
+2022-03-09 13:58:23.333 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:23.333 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=8777,cardTplId=19,costCount=9999
+2022-03-09 13:58:23.340 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 8777: 1104|67787-1008|964-5202|3-5316|2-1060|370-1451|2500-1064|4-1002|7400-5210|9-1450|8336725-1006|14
+2022-03-09 13:58:23.342 [nioEventLoopGroup-5-1] INFO g.m.a.d.ActivityPlayerCache - Player id: 25907 personal activity cache data, load success
+2022-03-09 13:58:24.221 [main] WARN g.GameServer - load player chat visit data!
+2022-03-09 13:58:24.221 [main] INFO g.m.c.l.ChatManager - chat visit info loadFromDb!
+2022-03-09 13:58:24.281 [main] INFO g.m.r.d.RankLikeCache - rank like info loadFromDb!
+2022-03-09 13:58:24.283 [main] WARN g.GameServer - stage battle force rank init!
+2022-03-09 13:58:24.283 [main] WARN g.GameServer - load tcdk data!
+2022-03-09 13:58:24.289 [main] INFO g.m.c.d.CdkeyCache - 初始化激活码成功!
+2022-03-09 13:58:24.289 [main] WARN g.GameServer - load guild data!
+2022-03-09 13:58:24.289 [main] WARN g.GameServer - start log Stage
+2022-03-09 13:58:24.290 [main] WARN g.GameServer - start log stageCache
+2022-03-09 13:58:24.290 [main] WARN g.GameServer - load Invite
+2022-03-09 13:58:24.293 [main] INFO g.m.a.d.ActivityDao - type: 11
+2022-03-09 13:58:24.293 [main] INFO g.m.a.d.ActivityDao - start_time: 1645380000000
+2022-03-09 13:58:24.293 [main] INFO g.m.a.d.ActivityDao - end_time: 1645981140000
+2022-03-09 13:58:24.293 [main] INFO g.m.a.d.ActivityDao - type: 22
+2022-03-09 13:58:24.293 [main] INFO g.m.a.d.ActivityDao - start_time: 1646330400000
+2022-03-09 13:58:24.293 [main] INFO g.m.a.d.ActivityDao - end_time: 1646585940000
+2022-03-09 13:58:24.293 [main] INFO g.m.a.d.ActivityDao - type: 24
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - start_time: 1634619600000
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - end_time: 1634835540000
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - type: 106
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - start_time: 1646413260000
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - end_time: 1646585940000
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - type: 14
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - start_time: 1645984800000
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - end_time: 1646585940000
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - type: 117
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - start_time: 1645725600000
+2022-03-09 13:58:24.294 [main] INFO g.m.a.d.ActivityDao - end_time: 1645981140000
+2022-03-09 13:58:24.295 [main] INFO g.m.a.d.ActivityDao - type: 16
+2022-03-09 13:58:24.295 [main] INFO g.m.a.d.ActivityDao - start_time: 1643565600000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - end_time: 1643907540000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - type: 23
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - start_time: 1635357600000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - end_time: 1635699540000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - type: 119
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - start_time: 1646330400000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - end_time: 1646585940000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - type: 15
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - start_time: 1645984800000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - end_time: 1646585999000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - type: 130
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - start_time: 1643565600000
+2022-03-09 13:58:24.296 [main] INFO g.m.a.d.ActivityDao - end_time: 1643907599000
+2022-03-09 13:58:24.298 [main] INFO g.m.a.d.ActivityCache - All activities are successfully loaded!
+2022-03-09 13:58:24.298 [main] WARN g.GameServer - load arena lucky rank
+2022-03-09 13:58:24.300 [main] WARN g.GameServer - mine init!
+2022-03-09 13:58:24.369 [main] WARN g.GameServer - guozhan init!
+2022-03-09 13:58:24.382 [main] WARN g.GameServer - boss init!
+2022-03-09 13:58:24.391 [main] WARN g.GameServer - start activity timer
+2022-03-09 13:58:24.437 [main] INFO g.m.f.d.FriendCache - The player whose number of environment friends reaches the upper limit is successfully loaded!
+2022-03-09 13:58:24.438 [main] INFO g.m.a.d.ActivityQZYBCache - Loading Qi Zhenbao Event Participation Information
+2022-03-09 13:58:24.439 [main] WARN g.GameServer - lockuser init
+2022-03-09 13:58:24.440 [main] WARN g.GameServer - player offline cache size=50
+2022-03-09 13:58:24.501 [main] WARN g.GameServer - game server startup success! in 50 s
+2022-03-09 13:58:24.516 [api.controller.QueueController_1] INFO o.m.d.connection - Opened connection [connectionId{localValue:2, serverValue:4}] to 127.0.0.1:27017
+2022-03-09 13:58:24.687 [nioEventLoopGroup-5-1] INFO g.m.m.d.MailCache - 玩家ID：25907的邮件缓存数据加载成功
+2022-03-09 13:58:24.705 [nioEventLoopGroup-5-1] INFO g.m.s.d.SignCache - 玩家ID：25907的签到缓存数据加载成功
+2022-03-09 13:58:24.706 [nioEventLoopGroup-5-1] INFO g.m.o.d.OnlineAwardCache - 玩家ID：25907的在线奖励缓存数据加载成功
+2022-03-09 13:58:24.716 [nioEventLoopGroup-5-1] INFO g.m.s.d.SecretCache - 玩家ID：25907的秘密基地缓存数据加载成功
+2022-03-09 13:58:24.718 [nioEventLoopGroup-5-1] INFO g.m.b.d.BattleArenaCache - playerId：25907, loadFromDb battle arena success!
+2022-03-09 13:58:24.728 [nioEventLoopGroup-5-1] INFO g.m.f.d.FriendCache - Player ID:25907Friends cache data loading success
+2022-03-09 13:58:24.729 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=25907, templateId=1205, count=280, current_count=0,con_lai=-280
+2022-03-09 13:58:24.729 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=25907, templateId=1603, count=140, current_count=0,con_lai=-140
+2022-03-09 13:58:24.729 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=25907, templateId=1103, count=140, current_count=0,con_lai=-140
+2022-03-09 13:58:24.730 [nioEventLoopGroup-5-1] INFO g.m.i.l.ItemManager - remove item guozhan:playerId=25907, templateId=1002, count=7000, current_count=0,con_lai=-7000
+2022-03-09 13:58:24.731 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - remove gold guozhan:playerId=25907, templateId=1451, count=7, current_count=12989,con_lai=5989
+2022-03-09 13:58:24.732 [nioEventLoopGroup-5-1] INFO g.m.f.p.ForgeProcessor - forgeCardNFT
+2022-03-09 13:58:24.732 [nioEventLoopGroup-5-1] INFO g.m.c.l.CardManager - sub card!playerId=25907,cardTplId=19,costCount=9999
+2022-03-09 13:58:24.742 [nioEventLoopGroup-5-1] INFO g.h.SubRewardGuozhanHandler - reward: 25907: 1104|23818-1008|829-1060|370-5110|2-5111|2-1451|2500-1064|1-5209|3-1002|2400-5210|3-1450|5650140-1006|2
+2022-03-09 13:58:34.510 [OkHttp http://13.250.247.203:7000/...] ERRORa.ApiBlockchainUtils - authen faild: 500 connect timed out
+2022-03-09 13:58:44.518 [OkHttp http://13.250.247.203:7000/...] ERRORa.ApiBlockchainUtils - authen faild: 500 connect timed out
+2022-03-09 13:58:54.504 [executorPool-1-12] WARN g.GameServer - auto save to db!
+2022-03-09 13:58:54.506 [OkHttp http://13.250.247.203:7000/...] ERRORa.ApiBlockchainUtils - authen faild: 500 connect timed out
+2022-03-09 13:58:54.521 [OkHttp http://13.250.247.203:7000/...] ERRORa.ApiBlockchainUtils - authen faild: 500 connect timed out
+2022-03-09 13:58:54.549 [executorPool-1-12] INFO g.m.a.d.ActivityQZYBCache - Preserve Qi Zhenbao Event Participation Information
+2022-03-09 13:58:54.555 [executorPool-1-12] INFO g.m.a.d.ActivityChongZhiBangCache - Save recharge list participation information
+2022-03-09 13:58:54.558 [executorPool-1-12] INFO g.m.a.d.ActivityXiaoFeiBangBangCache - Save the consumer list
+2022-03-09 13:58:54.666 [executorPool-1-12] INFO g.m.r.d.RankLikeCache - rank like info saveToDb!
+2022-03-09 13:59:04.512 [OkHttp http://13.250.247.203:7000/...] ERRORa.ApiBlockchainUtils - authen faild: 500 connect timed out
+2022-03-09 13:59:24.476 [executorPool-1-7] ERRORa.d.HeroNFTDao - Table 'backup.hero_nft' doesn't exist Query: SELECT * FROM hero_nft where transfer_marketplace = 0 limit ? Parameters: [100]
+2022-03-09 13:59:54.508 [OkHttp http://13.250.247.203:7000/...] ERRORa.ApiBlockchainUtils - authen faild: 500 connect timed out
