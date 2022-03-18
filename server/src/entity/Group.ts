@@ -1,9 +1,9 @@
-export interface Group{
+export interface IGroup{
     id?: number
     userId: number
     type: string
     name: string
     des?: string
-    createdAt?: Date | string
-    updatedAt?: Date | string
+    created_at?: Date
+    updated_at?: Date
 }

@@ -1,1 +1,5 @@
 export * from './UserModel'
+export * from './WalletModel'
+export * from './GroupModel'
+export * from './IncomeModel'
+export * from './ExpenseModel'

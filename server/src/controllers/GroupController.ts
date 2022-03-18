@@ -1,10 +1,8 @@
 import { Response, Request } from "express";
-import { GroupType } from "../constants/GroupType";
 import BaseResponse from "../entity/BaseResponse";
-import {Group} from "../entity";
-import { GroupModel } from "../models/GroupModel";
 import { Controller, Get, Middleware, Post } from "../utils";
-import { auth } from "./test";
+import {IGroup} from "../entity";
+import {auth} from "../libs/middleware";
 
 @Controller('group')
 export class GroupController {
@@ -14,19 +12,16 @@ export class GroupController {
         // GroupModel.getInstance().get()
     }
 
-
     @Post('save')
     @Middleware(auth)
     public async save(req: Request, res: Response) {
         const { userId, type, name, des = "" } = req.body;
 
         try {
-            //console.log(new BaseResponse(404, "Lỗi tham số") );
-            console.log();
 
             if (!type || !name) return new BaseResponse(404, "Lỗi tham số")
 
-            let group: Group = { userId, type, name ,des}
+            let group: IGroup = { userId, type, name ,des}
 
             // const data = await GroupModel.getInstance().save(group);
             let data= ""

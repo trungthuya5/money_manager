@@ -1,12 +1,12 @@
 import {Model} from "./Model";
 import {User} from  '../entity'
 
-export class GroupModel extends Model {
+export class ExpenseModel extends Model {
 
-    private static _instance: GroupModel;
+    private static _instance: ExpenseModel;
     private table:string = "group";
 
-    public static get instance(): GroupModel {
+    public static get instance(): ExpenseModel {
         return this._instance || (this._instance = new this())
     }
 
