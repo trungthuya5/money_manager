@@ -3,3 +3,4 @@
 export * from './UserController'
 export * from './AuthController'
 export * from './GroupController'
+export * from './WalletController'

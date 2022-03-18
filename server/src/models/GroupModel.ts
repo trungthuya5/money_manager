@@ -1,49 +1,37 @@
-
-import {Group} from "../entity";
 import {Model} from "./Model";
+import {IGroup, User} from '../entity'
 
-export class GroupModel extends Model{
+export class GroupModel extends Model {
 
     private static _instance: GroupModel;
+    private table:string = "group";
 
     public static get instance(): GroupModel {
         return this._instance || (this._instance = new this())
     }
 
+
     constructor() {
-        super();
+        super()
     }
 
-    public async get(id: number) {
-        return await this.selectOne<Group>("SELECT * FROM group WHERE id=?",[id])
+    public async findFirst(userId: number, id:number) {
+        return await  this.find(this.table,{userId, id})
     }
 
-    public async getAll(userId: number) {
-        return await this.select<Group>("SELECT * FROM group WHERE userId=?",[userId])
+    public async findMany(userId:number) {
+        return await this.all(this.table,{userId})
     }
 
-    public async save(data:Group) {
-        return await this.insert("INSERT INTO group(userId,type,name,des) VALUES (?,?,?,?)",[data.userId,data.type,data.name,data.des])
-        // return await prisma.group.create({ data });
+    public async save(data: IGroup) {
+        return await this.create(this.table, data)
     }
 
-    // public async update(userId: number,id:number, data: any) {
-    //     return await prisma.group.update({
-    //         where: {id},
-    //         data: data
-    //     });
-    // }
-
-
-    public async getUserByUsername(username: string) {
-
+    public async updateById(id: number, data: IGroup) {
+        return await this.update(this.table, data, {id})
     }
 
-    public async getUserByLogin(username: string, password: string) {
-
+    public async deleteGroupById(userId:number, id: number) {
+        return await this.delete(this.table, {id, userId})
     }
-
-
-
-
 }

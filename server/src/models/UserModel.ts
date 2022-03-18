@@ -1,70 +1,42 @@
-import {MysqlManager} from "../db";
 import {Model} from "./Model";
-import {User} from  '../entity'
-
-
-interface IUser {
-    id?: number;
-    username: string;
-    password: string;
-    fullname: string;
-}
+import {IUser, User} from '../entity'
 
 export class UserModel extends Model {
 
-    private static instance: UserModel;
+    private static _instance: UserModel;
+    private table:string = "user";
 
-    public static getInstance(): UserModel {
-        if (!UserModel.instance) {
-            UserModel.instance = new UserModel();
-        }
-
-        return UserModel.instance;
+    public static get instance(): UserModel {
+        return this._instance || (this._instance = new this())
     }
+
 
     constructor() {
         super()
     }
 
-    public async get(userId: number) {
-        // return await prisma.user.findFirst({
-        //     where: {id: userId}
-        // });
-
-        // return await this.conn.query("SELECT * FROM user WHERE id=?", [userId]);
+    public async findFirst(userId: number) {
+        return await  this.find(this.table,{userId})
     }
 
-    public async getAll() {
-        // const user:User[] = await this.conn.query<IUser[]>("SELECT * FROM user");
-        //let conn = await MysqlManager.getInstance().getDataSource()
-        //return await conn.query("SELECT * FROM user")
-
-        return await this.select("SELECT * FROM user");
-        //return  await  prisma.user.findMany();
+    public async findMany() {
+       return await this.all(this.table,{})
     }
 
-    public async save(data: User) {
-        return await this.insert("INSERT INTO user(username,password,fullname) VALUES(?,?,?)",[data.username,data.password,data.fullname])
-       // return await prisma.user.create({data});
-
-
+    public async save(data: IUser) {
+       return await this.create(this.table, data)
     }
 
-    public async update(userId: number, data: User) {
-
+    public async updateByUserId(userId: number, data: User) {
+        return await this.update(this.table, data, {userId})
     }
-
 
     public async getUserByUsername(username: string) {
-
-        return await this.select("SELECT * FROM user WHERE username=?",[username]);
-        // return await prisma.user.count({
-        //     where: {username}
-        // })
+       return await this.find(this.table, {username})
     }
 
-    public async getUserByLogin(username: string, password: string):Promise<User | undefined> {
-        return await this.selectOne<User>("SELECT * FROM user WHERE username=? AND password=?",[username,password])
+    public async getUserByLogin(username: string, password: string){
+        return await this.find(this.table, {username, password})
     }
 
 

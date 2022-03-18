@@ -32,7 +32,9 @@ CREATE TABLE `income`(
     `walletId` INT NOT NULL,
     `groupId` INT NOT NULL,
     `name` VARCHAR(255) NOT NULL,
+    `amount` DOUBLE NOT NULL,
     `note` VARCHAR(255),
+    `time` DATETIME NOT NULL,
     `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP
 );
@@ -43,7 +45,9 @@ CREATE TABLE `expense`(
     `walletId` INT NOT NULL,
     `groupId` INT NOT NULL,
     `name` VARCHAR(255) NOT NULL,
+    `amount` DOUBLE NOT NULL,
     `note` VARCHAR(255),
+    `time` DATETIME NOT NULL,
     `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     `updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP
 );

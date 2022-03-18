@@ -27,7 +27,6 @@
  
      private setupControllers(): void {
          const controllerInstances = [];
-         console.log(controllers);
          
          for (const name of Object.keys(controllers)) {
              const controller = (controllers as any)[name];
@@ -35,8 +34,6 @@
                  controllerInstances.push(new controller());
              }
          }
-
-         console.log(controllerInstances);
          
          super.addControllers(controllerInstances);
      }

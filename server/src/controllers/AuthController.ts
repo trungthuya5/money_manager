@@ -5,8 +5,6 @@ import { Controller, Post, Middleware } from "../utils/decorators";
 import md5 from 'md5'
 import * as jwt from 'jsonwebtoken'
 import {IUser, User} from "../entity";
-import {ModelTest} from "../models/ModelTest";
-import {Model} from "../models/Model";
 
 
 @Controller('auth')
@@ -16,24 +14,25 @@ export class AuthController {
     @Post('signup')
     public async register(req: Request, res: Response) {
 
-        let { username, password, fullname } = req.body;
+        let { username, password, fullName } = req.body;
 
         try {
-            if (!username || !password || !fullname) {
+            if (!username || !password || !fullName) {
                 return new BaseResponse(404, "Lỗi tham số");
             }
 
-            const count = await UserModel.getInstance().getUserByUsername(username) as User[];
-            if (count.length) return new BaseResponse(1, "Tài khoản đã tồn tại");
+            const userExist = await UserModel.instance.getUserByUsername(username) as IUser;
+            if (userExist) return new BaseResponse(1, "Tài khoản đã tồn tại");
 
-            const user = new User(username, md5(password), fullname);
+            const user:IUser = {username, password: md5(password), full_name:fullName};
 
-            const data = await UserModel.getInstance().save(user);
+            const data = await UserModel.instance.save(user);
 
             return new BaseResponse(0, "Tạo tài khoản thành công", data);
 
 
         } catch (error) {
+            console.log(error)
             return new BaseResponse(404, "Hệ thống bận")
         }
 
@@ -46,28 +45,18 @@ export class AuthController {
         const { username, password } = req.body;
 
         try {
-           // let a = await ModelTest.getInstance().insert("group", {userId: "1", type: "1", name: "aa", des: "3"})
-           let a = await ModelTest.getInstance().update("group",{name:"bb"}, {userId:'1'})
-            let b = await ModelTest.getInstance().findAll("group", {userId: 1})
-            let c = await ModelTest.getInstance().findOne("group", {userId: 1})
-
-            console.log(a)
-            console.log(b)
-            console.log(c)
 
             if (!username || !password) {
                 return new BaseResponse(404, "Lỗi tham số")
             }
 
             const pass = md5(password) as string
-            const user = await UserModel.getInstance().getUserByLogin(username, pass);
+            const user = await UserModel.instance.getUserByLogin(username, pass) as IUser;
 
             if (!user) return new BaseResponse(3, "Tài khoản không tồn tại")
 
-            const data = { userId: user.id, fullname: user.fullname }
+            const data = { userId: user.id, full_name: user.full_name }
             const token = jwt.sign({ data }, 'secret1123');
-
-
             return new BaseResponse(0, "Đăng nhập thành công", token)
 
 
